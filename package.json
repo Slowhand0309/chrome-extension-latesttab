@@ -1,0 +1,20 @@
+{
+  "name": "chrome-extension-latsttab",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Slowhand0309 <slowhand0309@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "webextension-polyfill-ts": "^0.20.0"
+  },
+  "devDependencies": {
+    "@types/copy-webpack-plugin": "^6.0.0",
+    "@types/webpack": "^4.41.22",
+    "copy-webpack-plugin": "^6.2.1",
+    "ts-loader": "^8.0.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  }
+}

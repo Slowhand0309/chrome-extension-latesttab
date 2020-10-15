@@ -1,0 +1,29 @@
+{
+  "name": "Latest tab",
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "description": "Activate latest tab.",
+  "icons": {
+    "48": "icon_48.png"
+  },
+  "browser_action": {
+    "default_icon": "icon_32.png"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "commands": {
+    "activate-latest-tab": {
+      "suggested_key": {
+        "windows": "Alt+Tab",
+        "mac": "Alt+Tab"
+      },
+      "description": "Activate latest tab"
+    }
+  }
+}
