@@ -1,2 +1,2 @@
 # chrome-extension-latesttab
-Chrome extension switch latest tabs. 
+Chrome extension switch latest tabs.
