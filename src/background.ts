@@ -1,4 +1,4 @@
-import { browser, Tabs } from 'webextension-polyfill-ts'
+import { browser, Tabs } from 'webextension-polyfill-ts';
 
 let _tabId: number | undefined = 0;
 let _oldTabId: number | undefined = 0;

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style type="text/css">
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      body {
+        width: 300px;
+      }
+      .header-panel {
+        padding: 1rem;
+        background-color: rgb(155, 238, 238);
+      }
+      #shortcut-guide {
+        padding: 1.5rem;
+      }
+      #form-panel {
+        padding: 1.5rem;
+      }
+      .form-hr {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+<body>
+  <div class="header-panel">
+    <h2>Latest tabs switcher</h2>
+    <p>version: 0.0.1</p>
+  </div>
+  <div id="shortcut-guide">
+    Shortcut settings:<br />
+    chrome://extensions/shortcuts
+  </div>
+  <form id="form-panel">
+      <label>Keyboard shortcut</label>
+      <input type="text" id="shortcut" >
+      <div class="form-hr">
+      <button id="update">Update</button>
+      <button id="reset">Reset</button>
+  </form>
+  <script src="latesttab.js"></script>
+</body>
+
+</html>
